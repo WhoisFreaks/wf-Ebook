@@ -2,8 +2,8 @@
 
 - [**Introduction**](#Introduction)
    - [***Overview of the Ebook***](#overview-of-the-ebook)
-   - ***Importance of Cybersecurity in the Digital Age***
-   - ***Brief Introduction to Whoisfreaks***
+   - [***Importance of Cybersecurity in the Digital Age***](#Importance of Cybersecurity in the Digital Age)
+   - [***Brief Introduction to Whoisfreaks***](#Brief Introduction to Whoisfreaks)
 
 - **Whoisfreaks Products: An Overview**
    - ***Product Categories and Their Functions***
