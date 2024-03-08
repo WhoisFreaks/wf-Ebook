@@ -46,7 +46,26 @@
        - [****Identifying Domain Squatters****](#identifying-domain-squatters)
        - [****Strategies for Prevention and Response****](#strategies-for-prevention-and-response)
 
--[]
+- [**Leveraging DNS Records: Technologies and Scenarios for Effective Digital Management**](#leveraging-dns-records-technologies-and-scenarios-for-effective-digital-management)
+
+    - [***A Record***](#a-record)
+        - [****Finding domains that point to a specific web hosting service's IP range****](#finding-domains-that-point-to-a-specific-web-hosting-services-ip-range)
+
+    - [***AAAA Record***](#aaaa-record)
+        - [****Tracking IPv6 Readiness Among Online Businesses****](#tracking-ipv6-readiness-among-online-businesses)
+
+    - [***CNAME Record***](#cname-record)
+        - [****Mapping Domain Associations with CDN Providers****](#mapping-domain-associations-with-cdn-providers)
+
+    - [***MX Record***](#cname-record)
+        - [****Detecting Zoho Mail Adoption in Startups****](#detecting-zoho-mail-adoption-in-startups)
+        - [****Identifying Use of Disposable Email Services****](#identifying-use-of-disposable-email-services)
+
+    - [***NS Record***](#ns-record)
+        - [****Assessing Cloudflare's Dominance in DNS Hosting****](#assessing-cloudflares-dominance-in-dns-hosting)
+
+    - [***SPF (and TXT) Record***](#spf-and-txt-record)
+        - [****Auditing Domains for Email Spoofing Protection****](#auditing-domains-for-email-spoofing-protection)
 
 
 - **Conclusion**
