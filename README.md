@@ -46,6 +46,8 @@
        - [****Identifying Domain Squatters****](#identifying-domain-squatters)
        - [****Strategies for Prevention and Response****](#strategies-for-prevention-and-response)
 
+-[]
+
 
 - **Conclusion**
    - Summarizing Key Insights
