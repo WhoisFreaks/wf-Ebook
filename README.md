@@ -137,7 +137,7 @@ Before we deep dive into technical integrations, we will first try to understand
 ### Getting real-time domain data
 Here, we'll explore [live whois lookup tool](https://whoisfreaks.com/tools/whois/lookup) necessary for obtaining up-to-date information on domain registrations, status, and ownership details.
 
-[Try Whoisfreaks tool.](https://whoisfreaks.com/tools/whois/lookup/whoisfreaks.com)
+[***Try Whoisfreaks tool.***](https://whoisfreaks.com/tools/whois/lookup/whoisfreaks.com)
 
 ![live lookup of domain](images/live_whois_lookup.png)
 
@@ -145,7 +145,7 @@ Just go to the live tool, enter your required domain, and unlock the visibility 
 
 Curious about analyzing a large number of domains? Will this take a lot of time? Welcome to WhoisFreaks! We also offer bulk live lookup, where you can enter more than one domain.
 
-[Try bulk WHOIS lookup tools.](https://whoisfreaks.com/tools/whois/bulk/lookup)
+[***Try bulk WHOIS lookup tools.***](https://whoisfreaks.com/tools/whois/bulk/lookup)
 
 ![bulk live lookup of domains](images/bulk_live_whois_lookup.png)
 
@@ -156,26 +156,26 @@ Want to know who owned a specific domain in the past and who is currently acquir
 
 Using the WHOIS historical tool, you can not only find the past and current owner, but you can also correlate domains with similar information, monitor illegal usage of your domain, and investigate domain ownership problems.
 
-[Try historical WHOIS lookup tools.](https://whoisfreaks.com/tools/user/whois/history/lookup/whoisfreaks.com)
+[***Try historical WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/history/lookup/whoisfreaks.com)
 
 ![historical whois lookup](images/historical_whois_lookup.png)
 
 ### Looking for domains that contains a specific keyword
 Want to identify domains that are associated with WHOIS and DNS records availability or those linked to a specific brand? Utilize our advanced [Reverse WHOIS Lookup tool](https://whoisfreaks.com/tools/user/whois/reverse/search), which employs strategic keyword analysis, to unveil a comprehensive list of domains based on required brand's keyword. This tool not only reveals the quantity of such domains but also provides you with their specific names, enabling you to navigate the intricate web of domain-related intelligence with precision and ease.
 
-[Try keyword Reverse WHOIS lookup tools.](https://whoisfreaks.com/tools/user/whois/reverse/search/keyword/whois?page=1)
+[***Try keyword Reverse WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/reverse/search/keyword/whois?page=1)
 
 ![reverse keyword lookup](images/reverse_keyword_search.png)
 
 ### Searching for domains owned by a specific person
 To uncover the list of domains associated with an individual, leverage the capabilities of our sophisticated Reverse WHOIS Lookup tool. This innovative tool utilizes a detailed analysis of the owner's name, offering a strategic approach to identifying domains linked to a specific person.
 
-[Try owner Reverse WHOIS lookup tools.](https://whoisfreaks.com/tools/user/whois/reverse/search/owner/ejaz%20ahmed?page=1)
+[***Try owner Reverse WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/reverse/search/owner/ejaz%20ahmed?page=1)
 
 ### Searching for domains owned using a specific email
 For a targeted exploration of domain connections via email addresses, our advanced Reverse WHOIS Lookup tool stands ready. This precise instrument sifts through email-associated domains, furnishing a comprehensive list of domains linked to a given email. Ideal for cybersecurity assessments, intellectual property management, and digital footprint analysis, this tool streamlines the discovery process, enhancing investigative efficiency and insight depth.
 
-[Try email Reverse WHOIS lookup tools.](https://whoisfreaks.com/tools/user/whois/reverse/search/email/ejaz_ahmed@outlook.com?page=1)
+[***Try email Reverse WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/reverse/search/email/ejaz_ahmed@outlook.com?page=1)
 
 ### Searching for domains owned by an organization.
 To strategically identify domains registered under a specific corporate entity, our Reverse WHOIS Lookup tool, enhanced for company name analysis, proves indispensable. This pivotal resource empowers cybersecurity professionals to map out a corporation's digital terrain comprehensively. By revealing the network of domains tied to a company;
@@ -184,7 +184,7 @@ To strategically identify domains registered under a specific corporate entity, 
 
 This tool elevates cybersecurity efforts by providing an extensive view of a company’s online presence, enabling more informed protective strategies.
 
-[Try email Reverse WHOIS lookup tools.](https://whoisfreaks.com/tools/user/whois/reverse/search/company/jfreaks?page=1)
+[***Try email Reverse WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/reverse/search/company/jfreaks?page=1)
 
 
 ### Searching for domains pointing to same IP address
@@ -194,7 +194,7 @@ The importance of reverse DNS lookups in cybersecurity cannot be overstated. It 
 
 Reverse DNS lookups also play a pivotal role in incident response and threat intelligence. Identifying hostnames associated with an attacking system can unveil other domains related to the attacker, offering insights that might be critical in mitigating cyber attacks.
 
-[Try Reverse DNS lookup tools.](https://whoisfreaks.com/tools/dns/reverse/lookup/a/12.34.54.23)
+[***Try Reverse DNS lookup tools.***](https://whoisfreaks.com/tools/dns/reverse/lookup/a/12.34.54.23)
 
 ![reverse DNS lookup](images/reverse_a_dns_search.png)
 
@@ -414,6 +414,8 @@ WhoisFreaks can be instrumental in the analysis and validation of SSL certificat
 
 - **Verification of Certificate Issuance:** Analysts can use WhoisFreaks to verify the domain details and match them with the SSL certificate issuer information. This can help in identifying discrepancies or forged certificates.
 
+    [***try SSL certificate tool***](https://whoisfreaks.com/tools/user/ssl/lookup/whoisfreaks.com)
+
     ![ssl Certificate issuance](images/ssl_issuance.png)
 
 - **Analysis of Certificate Expiry and Validity:** Regular monitoring of SSL certificates for critical domains can prevent the use of expired or soon-to-expire certificates, reducing the risk of security oversights.
@@ -421,6 +423,8 @@ WhoisFreaks can be instrumental in the analysis and validation of SSL certificat
     ![ssl certificate Expiration](images/ssl_expiration.png)
 
 - **Identification of Anomalous Certificate Chains:** By examining the complete certificate chain, security professionals can detect any unusual intermediaries or root certificates that should not be there, indicating a potential compromise or misconfiguration.
+
+    [***try SSL chain certificates tool***](https://whoisfreaks.com/tools/user/ssl/lookup/whoisfreaks.com?chain=true)
 
 - **Cross-referencing Domain Registrations and Certificate Details:** Cross-referencing the details found in SSL certificates with WHOIS data for the associated domains can help in identifying mismatches or fraudulent practices, such as certificates issued to suspicious entities or domains registered with the intent of phishing.
 
@@ -432,10 +436,10 @@ In today's digital landscape, a brand's online presence is as crucial as its phy
 
 WhoisFreaks offers a suite of tools that can be instrumental in brand protection strategies. By leveraging its comprehensive WHOIS database, companies can monitor domain registrations closely to identify any unauthorized use of their brand. This enables them to:
 
-- Detect newly registered domains that mimic their brand name or trademarks, potentially indicating attempts at impersonation or typosquatting.
-- Detect domain names similar to your brand name, utilize the WhoisFreaks Reverse API with a keyword search.
+- Detect [newly registered domains](https://whoisfreaks.com/products/newly-registered-domains.html) that mimic their brand name or trademarks, potentially indicating attempts at impersonation or typosquatting.
+- Detect domain names similar to your brand name, utilize the [WhoisFreaks Reverse API](https://whoisfreaks.com/tools/user/whois/reverse/search) with a keyword search.
 - Analyze registration details of suspicious domains, including registrant information, to assess the threat and take appropriate action.
-- Indeed, automating the comprehensive analysis described above can be efficiently achieved by subscribing to the Brand Monitor suite of WhoisFreaks. This service offers real-time monitoring, promptly notifying you via email in the event of any suspicious domain registrations, updates, or deletions.
+- Indeed, automating the comprehensive analysis described above can be efficiently achieved by subscribing to the [Brand Monitor suite](https://whoisfreaks.com/products/brand-monitoring.html) of WhoisFreaks. This service offers real-time monitoring, promptly notifying you via email in the event of any suspicious domain registrations, updates, or deletions.
 
 
 ### Counteracting Typosquatting and Similar Domain Frauds
@@ -472,6 +476,8 @@ Identifying all domains hosted on a particular Cloudflare instance. By searching
 
 The information below pertains to a single IP address. You can perform a reverse search on the entire IP range allocated to Cloudflare iteratively.
 
+[***try it yourself***](https://whoisfreaks.com/tools/user/dns/reverse/lookup/a/1.1.1.1?page=1)
+
 **Here's a fact:** There are 63,063,631 domains being hosted within Amazon's IP ranges in block 3 of the IPv4 protocol.
 
 ![cloudflare_domains](images/clouflareDomains.png)
@@ -487,6 +493,8 @@ To gauge the adoption rate of IPv6 among online businesses in a specific sector,
 
 The information below pertains to a single IPv6 address. You can conduct a reverse search on the entire IPv6 range to retrieve all domain names that have already adopted IPv6. Alternatively, if you prefer to avoid iterative searches, we can provide you with a comprehensive database for the aforementioned use case.
 
+[***try it yourself***](https://whoisfreaks.com/tools/user/dns/reverse/lookup/aaaa/2606:4700:3031:0:0:0:ac43:d6e5?page=1)
+
 **Here's a fact:** 177,348,276  domains currently support the IPv6 protocol.
 
 ![AAAA record domains](images/aaaa_record_domains.png)
@@ -499,9 +507,11 @@ A CNAME (Canonical Name) record is a type of DNS (Domain Name System) resource r
 
 For performance analysis, you're interested in understanding how many domains leverage CDN services to enhance their site speed. By filtering for CNAME records pointing to known CDN provider domains like Akamai or Cloudflare, you can identify websites prioritizing performance and possibly using additional security features provided by CDNs.
 
+[***try it yourself***]()
+
 **Here's a fact:** 7,18,536  domains currently uses cloudflare.
 
-### ADD IMAGE
+### ADD IMAGE and link too
 
 ### MX Record
 
@@ -511,6 +521,8 @@ MX (Mail Exchange) records are a type of DNS (Domain Name System) resource recor
 
 To understand the popularity of Zoho Mail among startups, you search for MX records pointing to Zoho's mail servers. This helps map the usage pattern of Zoho Mail in the startup ecosystem.
 
+[***try it yourself***](https://whoisfreaks.com/tools/user/dns/reverse/lookup/mx/mx.zoho.com?page=1)
+
 **Here's a fact:** 47,81,790  domains currently uses zoho as their mail service provider.
 
 ![ZOHO domains](images/zoho_domains.png) 
@@ -518,6 +530,8 @@ To understand the popularity of Zoho Mail among startups, you search for MX reco
 #### Identifying Use of Disposable Email Services
 
 Investigating the prevalence of disposable email services by identifying domains with MX records pointing to known temporary mail providers like "10minutesmail". This could be crucial for filtering out potential spam or fraudulent activities.
+
+[***try it yourself***](https://whoisfreaks.com/tools/user/dns/reverse/lookup/mx/prd-smtp.10minutemail.com?page=1)
 
 ![Temp mail domains](images/temp_mail_domains.png)
 
@@ -530,6 +544,8 @@ NS (Name Server) records are a type of DNS (Domain Name System) resource record 
 
 To assess Cloudflare's market penetration as a DNS provider, you look for domains with NS records pointing to Cloudflare's name servers. This can give insights into Cloudflare's popularity and reliability as a DNS hosting service.
 
+[***try it yourself***](https://whoisfreaks.com/tools/user/dns/reverse/lookup/ns/davina.ns.cloudflare.com?page=1)
+
 **Here's a fact:** Currently, 5,98,12,307 domains use Cloudflare as their hosting service provider.
 
 ![Cloudflare hosted domains](images/cloudflare_hosted_domains.png)
@@ -541,6 +557,8 @@ SPF (Sender Policy Framework) and TXT (Text) records are types of DNS (Domain Na
 #### Auditing Domains for Email Spoofing Protection
 
 To enhance email security awareness, you plan to audit domains within your organization for the presence of SPF records. By checking TXT records for SPF configurations, you can identify which domains are properly configured to prevent email spoofing and which are lacking, requiring further security measures.
+
+[***try it yourself***](https://whoisfreaks.com/tools/user/dns/reverse/lookup)
 
 **Here are facts:**
 - 37,93,931 domains uses soft fail policy (~all) in their spf records.
