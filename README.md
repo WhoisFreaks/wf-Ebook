@@ -139,7 +139,7 @@ Here, we'll explore [live whois lookup tool](https://whoisfreaks.com/tools/whois
 
 [***Try Whoisfreaks tool.***](https://whoisfreaks.com/tools/whois/lookup/whoisfreaks.com)
 
-![live lookup of domain](images/live_whois_lookup.png)
+![live lookup of domain](images/live_whois_lookup.webp)
 
 Just go to the live tool, enter your required domain, and unlock the visibility of registrar, registrant, technical, admin contacts, and much more information to perform a deeper analysis.
 
@@ -147,7 +147,7 @@ Curious about analyzing a large number of domains? Will this take a lot of time?
 
 [***Try bulk WHOIS lookup tools.***](https://whoisfreaks.com/tools/whois/bulk/lookup)
 
-![bulk live lookup of domains](images/bulk_live_whois_lookup.png)
+![bulk live lookup of domains](images/bulk_live_whois_lookup.webp)
 
 If you want to query more than 100 domains, you can also upload a file. 
 
@@ -158,14 +158,14 @@ Using the WHOIS historical tool, you can not only find the past and current owne
 
 [***Try historical WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/history/lookup/whoisfreaks.com)
 
-![historical whois lookup](images/historical_whois_lookup.png)
+![historical whois lookup](images/historical_whois_lookup.webp)
 
 ### Looking for domains that contains a specific keyword
 Want to identify domains that are associated with WHOIS and DNS records availability or those linked to a specific brand? Utilize our advanced [Reverse WHOIS Lookup tool](https://whoisfreaks.com/tools/user/whois/reverse/search), which employs strategic keyword analysis, to unveil a comprehensive list of domains based on required brand's keyword. This tool not only reveals the quantity of such domains but also provides you with their specific names, enabling you to navigate the intricate web of domain-related intelligence with precision and ease.
 
 [***Try keyword Reverse WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/reverse/search/keyword/whois?page=1)
 
-![reverse keyword lookup](images/reverse_keyword_search.png)
+![reverse keyword lookup](images/reverse_keyword_search.webp)
 
 ### Searching for domains owned by a specific person
 To uncover the list of domains associated with an individual, leverage the capabilities of our sophisticated Reverse WHOIS Lookup tool. This innovative tool utilizes a detailed analysis of the owner's name, offering a strategic approach to identifying domains linked to a specific person.
@@ -196,7 +196,7 @@ Reverse DNS lookups also play a pivotal role in incident response and threat int
 
 [***Try Reverse DNS lookup tools.***](https://whoisfreaks.com/tools/dns/reverse/lookup/a/12.34.54.23)
 
-![reverse DNS lookup](images/reverse_a_dns_search.png)
+![reverse DNS lookup](images/reverse_a_dns.webp)
 
 ## Understanding Domain Dynamics in Cybersecurity
 
@@ -287,9 +287,9 @@ Analyzing the domain `https://qudscouncil.com/cd/AP/Signin` for potential phishi
 
 - Initially, conduct a [historical whois lookup on the domain](https://whoisfreaks.com/tools/user/whois/history/lookup/qudscouncil.com), and subsequently, extract pertinent information such as registrant emails and registrant name or company name. The obtained details are depicted in the accompanying images.
 
-    ![registrant details](images/phishing1.png)
+    ![registrant details](images/phishing1.webp)
 
-    ![registrant details](images/phishing2.png)
+    ![registrant details](images/phishing2.webp)
 
 - Next, employ a reverse whois API for email searches on [`ezat.tabish2010@gmail.com`](https://whoisfreaks.com/tools/user/whois/reverse/search/email/ezat.tabish2010@gmail.com?page=1) and [`ahmadibehsod@gmail.com`](https://whoisfreaks.com/tools/user/whois/reverse/search/email/ahmadibehsod@gmail.com?page=1). These inquiries unveil an additional 41 domains associated with the provided email addresses.
 
@@ -297,9 +297,9 @@ Analyzing the domain `https://qudscouncil.com/cd/AP/Signin` for potential phishi
 
 - Following the outlined steps, analyze each of the 6 additional domains individually using the historical whois lookup and reverse whois API with email search. Subsequently, compile a list of domains that demonstrate a connection to the original phishing domain. Upon conducting historical searches, additional email addresses have been uncovered.
 
-    ![registrant details](images/phishing3.png)
+    ![registrant details](images/phishing3.webp)
 
-    ![registrant details](images/phishing4.png)
+    ![registrant details](images/phishing4.webp)
 
 - Next, employ a reverse whois API for email searches on [`aburayhan481996@gmail.com`](https://whoisfreaks.com/tools/user/whois/reverse/search/email/aburayhan481996@gmail.com?page=1) and [`das.feuer@hotmail.com`](https://whoisfreaks.com/tools/user/whois/reverse/search/email/das.feuer@hotmail.com?page=1). These inquiries unveil an additional domain ([freelancerrayhan.com](https://whoisfreaks.com/tools/user/whois/lookup/freelancerrayhan.com)) associated with the provided email addresses.
 
@@ -362,13 +362,13 @@ In the realm of cybersecurity, understanding the anatomy of Distributed Denial o
 
 - **Detailed IP WHOIS Analaysis**: [IPWhois lookups](https://whoisfreaks.com/tools/ip-whois/lookup/) offers detailed information about the IP addresses, including the organization that registered them, contact information, and the registration dates. This analysis helps in pinpointing the potential source of the attack and understanding the attackers' geographic distribution.
     
-    ![IP Whois Lookup results](images/IP_WHOIS.png)
+    ![IP Whois Lookup results](images/IP_WHOIS.webp)
 
 
 - **Reverse DNS Query for Domain Association**: 
  Once the IPs are identified and their geographical positions are determined, a reverse analysis can be conducted using the [WhoisFreaks Reverse DNS API](https://whoisfreaks.com/tools/dns/reverse/lookup) with A and AAAA records. By providing the IP addresses, this approach enables the retrieval of all domains that were or are currently pointing to those specific IPs.
 
-    ![Reverse A record result](images/reverse_a_dns.png)
+    ![Reverse A record result](images/reverse_a_dns.webp)
 
  - **Analysis of Domain Registration Details**: Once all the domains are gathered then deep diving into the individual [domain registration details](https://whoisfreaks.com/tools/whois/lookup) of associated domains reveals crucial information about the entities behind the attack. Analyzing these details for red flags in registrant information can uncover patterns indicative of malicious intent. These red flags includes;
     
@@ -416,11 +416,11 @@ WhoisFreaks can be instrumental in the analysis and validation of SSL certificat
 
     [***try SSL certificate tool***](https://whoisfreaks.com/tools/user/ssl/lookup/whoisfreaks.com)
 
-    ![ssl Certificate issuance](images/ssl_issuance.png)
+    ![ssl Certificate issuance](images/ssl_issuance.webp)
 
 - **Analysis of Certificate Expiry and Validity:** Regular monitoring of SSL certificates for critical domains can prevent the use of expired or soon-to-expire certificates, reducing the risk of security oversights.
 
-    ![ssl certificate Expiration](images/ssl_expiration.png)
+    ![ssl certificate Expiration](images/ssl_expiration.webp)
 
 - **Identification of Anomalous Certificate Chains:** By examining the complete certificate chain, security professionals can detect any unusual intermediaries or root certificates that should not be there, indicating a potential compromise or misconfiguration.
 
@@ -480,7 +480,7 @@ The information below pertains to a single IP address. You can perform a reverse
 
 **Here's a fact:** There are 63,063,631 domains being hosted within Amazon's IP ranges in block 3 of the IPv4 protocol.
 
-![cloudflare_domains](images/clouflareDomains.png)
+![cloudflare_domains](images/clouflareDomains.webp)
 
 
 ### AAAA Record
@@ -497,7 +497,7 @@ The information below pertains to a single IPv6 address. You can conduct a rever
 
 **Here's a fact:** 177,348,276  domains currently support the IPv6 protocol.
 
-![AAAA record domains](images/aaaa_record_domains.png)
+![AAAA record domains](images/aaaa_record_domains.webp)
 
 ### CNAME Record
 
@@ -525,7 +525,7 @@ To understand the popularity of Zoho Mail among startups, you search for MX reco
 
 **Here's a fact:** 47,81,790  domains currently uses zoho as their mail service provider.
 
-![ZOHO domains](images/zoho_domains.png) 
+![ZOHO domains](images/zoho_domains.webp) 
 
 #### Identifying Use of Disposable Email Services
 
@@ -533,7 +533,7 @@ Investigating the prevalence of disposable email services by identifying domains
 
 [***try it yourself***](https://whoisfreaks.com/tools/user/dns/reverse/lookup/mx/prd-smtp.10minutemail.com?page=1)
 
-![Temp mail domains](images/temp_mail_domains.png)
+![Temp mail domains](images/temp_mail_domains.webp)
 
 
 ### NS Record
@@ -548,7 +548,7 @@ To assess Cloudflare's market penetration as a DNS provider, you look for domain
 
 **Here's a fact:** Currently, 5,98,12,307 domains use Cloudflare as their hosting service provider.
 
-![Cloudflare hosted domains](images/cloudflare_hosted_domains.png)
+![Cloudflare hosted domains](images/cloudflare_hosted_domains.webp)
 
 ### SPF (and TXT) Record
 

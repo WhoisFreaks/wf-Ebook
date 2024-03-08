@@ -1,0 +1,14 @@
+// Suspicious IP Analysis Flow
+digraph {
+	A [label="Identify Suspicious IPs"]
+	B [label="Analyze IPs with ipgeolocation.io"]
+	C [label="Reverse Query IPs for Domains
+(WhoisFreaks Reverse DNS A Record Search)"]
+	D [label="Analyze Domain Registration Details
+(WhoisFreaks)"]
+	E [label="Identify Suspicious Activities in Registrant Information"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+}
