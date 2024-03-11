@@ -50,6 +50,7 @@
 
     - [***A Record***](#a-record)
         - [****Finding domains that point to a specific web hosting service's IP range****](#finding-domains-that-point-to-a-specific-web-hosting-services-ip-range)
+        - [****Finding domains that uses multiple A records for Load Balancing****](#finding-domains-that-uses-multiple-a-records-for-load-balancing)
 
     - [***AAAA Record***](#aaaa-record)
         - [****Tracking IPv6 Readiness Among Online Businesses****](#tracking-ipv6-readiness-among-online-businesses)
@@ -66,12 +67,8 @@
 
     - [***SPF (and TXT) Record***](#spf-and-txt-record)
         - [****Auditing Domains for Email Spoofing Protection****](#auditing-domains-for-email-spoofing-protection)
+        - [****Identifying domains employing DMARC****](#identifying-domains-employing-dmarc)
 
-
-- **Conclusion**
-   - Summarizing Key Insights
-   - Future Trends in Cybersecurity and Role of Whoisfreaks
-   - Final Thoughts and Recommendations
 
 
 
@@ -482,6 +479,10 @@ The information below pertains to a single IP address. You can perform a reverse
 
 ![cloudflare_domains](images/clouflareDomains.webp)
 
+#### Finding domains that uses multiple A records for Load Balancing
+
+Employing multiple A records for a singular domain to distribute traffic across various servers, thereby improving website availability and performance. This involves a sequence of reverse searches and constitutes a customized solution that cannot currently be assessed using tools or API. If you desire such information, please reach out to us at support@whoisfreaks.com.
+
 
 ### AAAA Record
 
@@ -564,3 +565,7 @@ To enhance email security awareness, you plan to audit domains within your organ
 - 37,93,931 domains uses soft fail policy (~all) in their spf records.
 - 3,46,122 domains uses hard fail (-all) in their spf records.
 - 44,355 domains uses neutral (?all) in their spf records.
+
+#### Identifying domains employing DMARC
+
+Initially, extract domains with configured TXT records, then iterate through their TXT records to determine if any are utilized for email verification. This process involves a series of reverse searches and is a customized solution not currently assessable through standard tools or IP methods. If you seek this information, kindly contact us at support@whoisfreaks.com.
