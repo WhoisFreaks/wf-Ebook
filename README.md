@@ -76,25 +76,23 @@
 
 ## Overview of the Ebook
 
-In this ebook, we embark on a journey through the dynamic landscape of cybersecurity, exploring its pivotal role in the digital age. Our primary focus is to understand and leverage the innovative solutions offered by Whoisfreaks, enhancing cybersecurity measures. This includes comprehensive coverage of domain and IP whois information, encompassing newly registered, expired, and dropped domains.
+In this ebook, our primary focus is to understand and leverage the innovative solutions offered by Whoisfreaks, enhancing cybersecurity measures. This includes comprehensive coverage of domain and IP whois information, encompassing newly registered, expired, and dropped domains.
 
-Following this, we delve into the utilization of domain and IP whois information to trace back the sources of attacks. This step provides a practical approach to identifying and mitigating potential threats. Our exploration continues as we dive deep into different types of cybersecurity attacks. The post-analysis involves leveraging Whoisfreaks' [whois]() and DNS databases, offering valuable insights into the nature and origin of these attacks.
+Following this, we delve into the utilization of domain and IP whois information to trace back the sources of attacks. This step provides a practical approach to identifying and mitigating potential threats. The post-analysis involves leveraging Whoisfreaks' [whois]() and DNS databases, offering valuable insights into the nature and origin of these attacks.
 
-Additionally, we explore various monitoring tools tailored for domains, brands, and registrants. These tools collectively form the foundation for robust cybersecurity analysis, enabling a proactive stance against evolving threats. Join us in uncovering the intricacies of cybersecurity, learning to harness the power of Whoisfreaks, and gaining insights that empower effective defense strategies in the ever-evolving digital landscape.
+Additionally, we explore various monitoring tools tailored for domains, brands, and registrants. These tools collectively form the foundation for robust cybersecurity analysis, enabling a proactive stance against evolving threats. Join us in uncovering the complexities of cybersecurity, learning to harness the power of Whoisfreaks, and gaining insights that empower effective defense strategies in the ever-evolving digital landscape.
 
 ## Importance of Cybersecurity in the Digital Age
-The importance of cybersecurity in the digital age cannot be overstated, as our lives, businesses, and critical infrastructure are increasingly intertwined with digital technologies. Here are key reasons highlighting the significance of cybersecurity:
+The importance of cybersecurity in the digital age cannot be overstated, as our lives, businesses, and critical infrastructure are increasingly connected with digital technologies. Here are key reasons highlighting the significance of cybersecurity:
    - In the digital age, vast amounts of sensitive information, including personal, financial, and business data, are stored and transmitted electronically. Cybersecurity measures are essential to safeguard this information from unauthorized access, theft, or manipulation.
    - Cyber attacks can result in significant financial losses for individuals, businesses, and governments. Cybersecurity helps prevent financial fraud, online scams, and other malicious activities that could lead to monetary losses.
 
-In conclusion, cybersecurity is a fundamental aspect of our interconnected, digital world. It is not only about protecting data but also about preserving trust, privacy, and the overall integrity of the digital ecosystem. As technology continues to advance, the importance of robust cybersecurity measures will only grow.
+In conclusion, cybersecurity is a fundamental aspect of our digital world. It is not only about protecting data but also about preserving trust, privacy, and the overall integrity of the digital ecosystem. As technology continues to advance, the importance of cybersecurity measures will only grow.
 
 ## Brief Introduction to Whoisfreaks
-In the ever-evolving landscape of digital security, the need for comprehensive and effective tools has never been more pressing. Enter Whoisfreaks, a cutting-edge platform at the forefront of cybersecurity innovation. Whoisfreaks stands out as a pivotal resource for professionals and enthusiasts alike, offering an extensive suite of services designed to enhance and fortify online security measures.
+In this digital world, the demand for comprehensive and effective tools is greater then ever. Introducing Whoisfreaks, an advanced platform leading the way in cybersecurity innovation.
 
 At its core, Whoisfreaks is renowned for its robust domain and IP information services. These services provide invaluable insights into the ownership, history, and associated metadata of domain names and IP addresses - information that is crucial in the battle against cyber threats. By leveraging the power of Whoisfreaks, users can delve deep into the digital footprint of entities across the internet, equipping themselves with the knowledge needed to identify, analyze, and counteract potential security risks.
-
-As we embark on an exploration of Whoisfreaks and its integral role in cybersecurity, it's essential to recognize the platform's versatility. From aiding in threat intelligence and risk assessment to bolstering brand protection strategies, Whoisfreaks emerges as a multifaceted ally in the pursuit of a safer digital world.
 
 # Whoisfreaks Products: An Overview
 
@@ -203,21 +201,33 @@ Reverse DNS lookups also play a pivotal role in incident response and threat int
 Newly registered domains (NRDs) play a crucial role in cybersecurity due to their potential use in various malicious activities. These domains are often registered and used by cybercriminals shortly after their creation for;
 - Phishing attacks.
 - Malware distribution.
-- Command and Control (C2) servers.
-- Credential stuffing.
 - Domain squatting, typosquatting.
 
 #### Prevention Strategies
-To prevent attacks using WhoisFreaks' Newly Registered Domains, you can access our API to download Whois files in CSV format or query domains in JSON format. This allows for monitoring of newly registered domains for specific dates across gTLDs and ccTLDs. Utilizing this data, you can implement security measures to block or scrutinize access to these domains, which are often used maliciously. For detailed information on how to use the API, including code snippets for various programming languages, visit NRDs [documentation](https://whoisfreaks.com/documentation/domains/newly-registered-domains.html).​
+To protect against potential threats from WhoisFreaks' Newly Registered Domains, you can take the following steps to analyze a domain like 'amazon.com';
+
+![Newly Registered Domains Flow Chart](images/newly_registered_flowchart.webp)
+    
+- Download Newly Registered or Expired domains file.
+- Filter all domain names containing the keyword `amazon`. Just for your information, there are 57 Generic Top-Level Domains (gTLDs) and 10 Country Code Top-Level Domains (ccTLDs) newly registered on 2024-03-11 containing `amazon`.
+- Filter the list based on potential typosquatting domains, which are those that are similar to the targeted domains.
+- Analyze each of these domains individually using a [live Whois lookup](https://whoisfreaks.com/tools/whois/lookup) to retrieve current details. Additionally, we'll conduct [historical lookups](https://whoisfreaks.com/tools/whois/history/lookup) to gather past records and analyze previous ownerships for further insight.
+- Once this analysis is complete, we will have domains with red flags indicating potential risks. At this stage, we can consider taking the following measures:
+    - Implement domain blocking or filtering at your network's perimeter defenses, such as firewalls, DNS filters, or web gateways.
+    - Configure your security systems to alert administrators when attempts are made to access these domains.
+    - Educate your employees about the risks associated with malicious domains. 
+
 
 ### Role of Expired Domains
+
+Expired domains can be used for attacks in several ways, leveraging the trust and reputation previously established by the original domain owners.
 
 #### Identifying Potential Threats
 
 Expired domains can lead to vulnerabilities such as 
-- Phishing attacks, where criminals create fake sites to steal information. 
-- Malware distribution, using domains to spread harmful software.
-- Business Email Compromise (BEC), impersonating legitimate business communications for fraudulent purposes​.
+- If the expired domain was previously associated with a legitimate business or organization, attackers could recreate a similar website or email service to impersonate the original entity.
+- By taking over an expired domain, attackers can potentially access email accounts associated with that domain if they manage to configure the domain's mail exchange (MX) records
+- An expired domain with a good SEO history can be repurposed for phishing while still attracting traffic through search engines.
 
 #### Prevention Strategies
 
@@ -280,6 +290,8 @@ Phishing attacks are fraudulent attempts to obtain sensitive information such as
 
 Post-analysis in the cybersecurity field, especially concerning phishing attacks, plays a crucial role in understanding the threat landscape, improving security measures, and preventing future incidents.
 
+![phishing attack : post analysis](images/phishing_attack_post_analysis_flow_chart.webp)
+
 Analyzing the domain `https://qudscouncil.com/cd/AP/Signin` for potential phishing activities aimed at acquiring user credentials from the Apple Store. Our investigation will utilize the databases provided by WhoisFreaks for a comprehensive examination.
 
 - Initially, conduct a [historical whois lookup on the domain](https://whoisfreaks.com/tools/user/whois/history/lookup/qudscouncil.com), and subsequently, extract pertinent information such as registrant emails and registrant name or company name. The obtained details are depicted in the accompanying images.
@@ -317,11 +329,8 @@ Domain theft can occur through various methods, including:
 - **Expired Domain Exploitation:** Unrenewed domains become susceptible to exploitation, as attackers may register these recently expired domains for the purpose of conducting email spoofing. This poses a significant threat to the security and trustworthiness of email communications.
 
 #### Real life Examples of Domain theft
-In 2015, an ex-Google employee, Sanmay Ved, discovered that Google.com was available for purchase on Google's own domain sales service. Ved was able to successfully purchase Google.com for a brief moment for the sum of $12. Ved received confirmation emails with information pertaining to the domain, effectively giving him control over Google.com, albeit very briefly. Google quickly realized the mistake and cancelled the sale, refunding Ved's $12. Google later compensated Ved for the discovery of this flaw, and upon learning that Ved intended to donate his reward to charity, Google doubled the amount.
 
 A notable case of domain theft occurred with the domain 'Pear.com'. This valuable domain was stolen from its rightful owner through unauthorized access to the owner's email or registrar account. The attackers likely used phishing or social engineering tactics to gain the necessary credentials to transfer the domain to another registrar, effectively taking control of it. The original owner faced significant challenges in recovering the domain, involving legal proceedings and negotiations.
-
-Both examples highlight the need for robust cybersecurity measures.
 
 #### Role of Whoisfreaks in Safeguarding Domains
 
@@ -352,6 +361,8 @@ The 2016 Dyn Cyberattack: One of the most notable DDoS attacks occurred on Octob
 
 #### How Whoisfreaks Aids in Post-Attack Analysis
 In the realm of cybersecurity, understanding the anatomy of Distributed Denial of Service (DDoS) attacks and the methodologies for identifying and mitigating such threats is paramount. This theoretical framework provides a comprehensive approach to handling DDoS attacks, focusing on the initial detection of suspicious IP addresses, geographical analysis, domain association, and scrutinizing domain registrant activities for signs of malfeasance.
+
+![DDoS Post analysis Flow Chart](images/ddos_post_analysis.webp)
 
 - **Identification of Suspicious IPs**: The first line of defense against a DDoS attack involves the detection and identification of suspicious IP addresses. This step requires monitoring network traffic to pinpoint anomalies that suggest a coordinated attack. Anomalies may include an unusual influx of requests from specific IP addresses or patterns that deviate significantly from normal traffic.
 
@@ -438,10 +449,22 @@ WhoisFreaks offers a suite of tools that can be instrumental in brand protection
 - Analyze registration details of suspicious domains, including registrant information, to assess the threat and take appropriate action.
 - Indeed, automating the comprehensive analysis described above can be efficiently achieved by subscribing to the [Brand Monitor suite](https://whoisfreaks.com/products/brand-monitoring.html) of WhoisFreaks. This service offers real-time monitoring, promptly notifying you via email in the event of any suspicious domain registrations, updates, or deletions.
 
+ ![brand Monitoring](images/brand_monitor.webp)
+
+ You can add any brand name you want to monitor. After adding a brand name you can view changings on daily bases like the one provided below:
+
+ ![brand Monitor Changing](images/brand_monitor_single_day.webp)
+
+ Moreover, you can also download the json file including newly added, updated, dropped and discovered domains.
+
 
 ### Counteracting Typosquatting and Similar Domain Frauds
 
 Typosquatting, where attackers register domains similar to a legitimate brand's domain but with typographical errors, is a common fraud tactic. WhoisFreaks helps in counteracting this by enabling brands to monitor for domain registrations that are visually or phonetically similar to their trademarks. Once identified, these domains can be contested through legal channels or domain dispute resolution policies.
+
+Once, the brand is added you can also edit it to include Typos too from `Edit Monitor` option and also exclude the keywords you want:
+
+![brand monitor edit](images/brand_monitor_edit.webp)
 
 #### Identifying Domain Squatters
 
@@ -471,11 +494,11 @@ The DNS A (Address) record serves the purpose of mapping a domain name to an IPv
 #### Finding domains that point to a specific web hosting service's IP range
 Identifying all domains hosted on a particular Cloudflare instance. By searching for A records matching the IP range assigned to clouflare, you can compile a list of domains utilizing Cloudflare for their hosting services.
 
-The information below pertains to a single IP address. You can perform a reverse search on the entire IP range allocated to Cloudflare iteratively.
+The information below pertains to a single IP address. You can also perform a reverse search on the entire IP range like 6.1.1.0/24.
 
 [***try it yourself***](https://whoisfreaks.com/tools/user/dns/reverse/lookup/a/1.1.1.1?page=1)
 
-**Here's a fact:** There are 63,063,631 domains being hosted within Amazon's IP ranges in block 3 of the IPv4 protocol.
+**Here's a fact:** There are more then 7M domains hosted on shopify.
 
 ![cloudflare_domains](images/clouflareDomains.webp)
 
@@ -508,11 +531,9 @@ A CNAME (Canonical Name) record is a type of DNS (Domain Name System) resource r
 
 For performance analysis, you're interested in understanding how many domains leverage CDN services to enhance their site speed. By filtering for CNAME records pointing to known CDN provider domains like Akamai or Cloudflare, you can identify websites prioritizing performance and possibly using additional security features provided by CDNs.
 
-[***try it yourself***]()
+[***try it yourself***](https://whoisfreaks.com/tools/user/dns/reverse/lookup/cname/cdn-3.technologieworld.com.cdn.cloudflare.net?page=1)
 
-**Here's a fact:** 7,18,536  domains currently uses cloudflare.
-
-### ADD IMAGE and link too
+**Here's a fact:** 7,94,436  domains currently uses cloudflare.
 
 ### MX Record
 
@@ -524,7 +545,7 @@ To understand the popularity of Zoho Mail among startups, you search for MX reco
 
 [***try it yourself***](https://whoisfreaks.com/tools/user/dns/reverse/lookup/mx/mx.zoho.com?page=1)
 
-**Here's a fact:** 47,81,790  domains currently uses zoho as their mail service provider.
+**Here's a fact:** 51,69,300  domains currently uses zoho as their mail service provider.
 
 ![ZOHO domains](images/zoho_domains.webp) 
 
