@@ -76,15 +76,15 @@
 
 ## Overview of the Ebook
 
-In this ebook, our primary focus is to understand and leverage the innovative solutions offered by Whoisfreaks, enhancing cybersecurity measures. This includes comprehensive coverage of domain and IP whois information, encompassing newly registered, expired, and dropped domains.
+In this ebook, our primary focus is to understand and leverage the innovative solutions offered by Whoisfreaks. These solutions are beneficial for enhance cybersecurity measures. This includes comprehensive coverage of domain and IP whois information, encompassing newly registered, expired, and dropped domains.
 
-Following this, we delve into the utilization of domain and IP whois information to trace back the sources of attacks. This step provides a practical approach to identifying and mitigating potential threats. The post-analysis involves leveraging Whoisfreaks' [whois]() and DNS databases, offering valuable insights into the nature and origin of these attacks.
+Following this, we will learn how to utilize domain and IP whois information to trace back the sources of attacks. This step provides a practical approach in identifying and mitigating potential threats. Post-analysis of the attack involves usage of Whoisfreaks' whois and DNS databases. These sources will offer valuable insights into the nature and origin of the attacks.
 
-Additionally, we explore various monitoring tools tailored for domains, brands, and registrants. These tools collectively form the foundation for robust cybersecurity analysis, enabling a proactive stance against evolving threats. Join us in uncovering the complexities of cybersecurity, learning to harness the power of Whoisfreaks, and gaining insights that empower effective defense strategies in the ever-evolving digital landscape.
+Additionally, we will explore various monitoring tools tailored for domains, brands, and registrants. These tools collectively form the foundation for robust cybersecurity analysis, enabling a proactive stance against evolving threats.
 
 ## Importance of Cybersecurity in the Digital Age
-The importance of cybersecurity in the digital age cannot be overstated, as our lives, businesses, and critical infrastructure are increasingly connected with digital technologies. Here are key reasons highlighting the significance of cybersecurity:
-   - In the digital age, vast amounts of sensitive information, including personal, financial, and business data, are stored and transmitted electronically. Cybersecurity measures are essential to safeguard this information from unauthorized access, theft, or manipulation.
+The importance of cybersecurity in the digital age cannot be overstated, as our lives, businesses, and critical infrastructure are connected with digital technologies. Here are key reasons highlighting the significance of cybersecurity:
+   - In the digital age, large amounts of sensitive information, including personal, financial, and business data, are stored and transmitted electronically. Cybersecurity measures are essential to safeguard this information from unauthorized access, theft, or manipulation.
    - Cyber attacks can result in significant financial losses for individuals, businesses, and governments. Cybersecurity helps prevent financial fraud, online scams, and other malicious activities that could lead to monetary losses.
 
 In conclusion, cybersecurity is a fundamental aspect of our digital world. It is not only about protecting data but also about preserving trust, privacy, and the overall integrity of the digital ecosystem. As technology continues to advance, the importance of cybersecurity measures will only grow.
@@ -97,15 +97,16 @@ At its core, Whoisfreaks is renowned for its robust domain and IP information se
 # Whoisfreaks Products: An Overview
 
 ## Product Categories and Their Functions
-WhoisFreaks offers a comprehensive suite of tools and APIs designed for various domain-related needs, including WHOIS lookups, domain availability checks, and monitoring services. Their products are tailored for cybersecurity professionals, domain investors, and businesses concerned with brand protection and digital security.
+WhoisFreaks offers a comprehensive suite of tools and APIs designed for various domain-related needs, including domain WHOIS lookup, domain DNS lookup, domain availability checks, and monitoring services. These products are tailored for cybersecurity professionals, domain investors, and businesses concerned with brand protection and digital security.
 
-- **Domain WHOIS lookup APIs** [🔗](https://whoisfreaks.com/products/whois-api.html)
-    - Live WHOIS lookup 
-    - Historical WHOIS lookup
-    - Reverse WHOIS lookup 
-    - Bulk Domain live WHOIS lookup (limit 100 domains each request)
-- **IP WHOIS lookup**[🔗](https://whoisfreaks.com/documentation/api/ip-whois-api.html)
-- **ASN WHOIS lookup**[🔗](https://whoisfreaks.com/documentation/api/asn-whois-api.html)
+- **WHOIS lookup APIs** [🔗](https://whoisfreaks.com/products/whois-api.html)
+    - Domain WHOIS lookup
+        - Live WHOIS lookup 
+        - Historical WHOIS lookup
+        - Reverse WHOIS lookup 
+        - Bulk Domain live WHOIS lookup (limit 100 domains each request)
+    - IP WHOIS lookup
+    - ASN WHOIS lookup
 - **Domain Availability lookup**[🔗](https://whoisfreaks.com/products/domain-availability-api.html)
 - **DNS lookup APIs**[🔗](https://whoisfreaks.com/products/dns-checker-api.html)
     - Live DNS lookup
@@ -123,8 +124,10 @@ WhoisFreaks offers a comprehensive suite of tools and APIs designed for various 
 - **Monitoring tools**
     - Domain Monitoring [🔗](https://whoisfreaks.com/products/domain-monitoring.html)
     - Brand Monitoring [🔗](https://whoisfreaks.com/products/brand-monitoring.html)
+    - Registrant Monitoring [🔗](https://whoisfreaks.com/products/registrant-monitoring.html)
 - **Utility tools**
     - Bulk Domain Lookup(limit 3 million domains) [🔗](https://whoisfreaks.com/products/bulk-whois-lookup.html)
+    - Bulk DNS Lookup(limit 3 million domains) [🔗](https://whoisfreaks.com/products/dns-checker-api.html)
 
 ## Integration of Whoisfreaks in Cybersecurity Solutions
 Before we deep dive into technical integrations, we will first try to understand simpler use cases.
@@ -138,7 +141,7 @@ Here, we'll explore [live whois lookup tool](https://whoisfreaks.com/tools/whois
 
 Just go to the live tool, enter your required domain, and unlock the visibility of registrar, registrant, technical, admin contacts, and much more information to perform a deeper analysis.
 
-Curious about analyzing a large number of domains? Will this take a lot of time? Welcome to WhoisFreaks! We also offer bulk live lookup, where you can enter more than one domain.
+**Curious about analyzing a large number of domains?** Will this take a lot of time? We also offer bulk live lookup, where you can enter more than one domain. This will help you in analyzing multiple domains at once, saving your precious time.
 
 [***Try bulk WHOIS lookup tools.***](https://whoisfreaks.com/tools/whois/bulk/lookup)
 
@@ -147,30 +150,30 @@ Curious about analyzing a large number of domains? Will this take a lot of time?
 If you want to query more than 100 domains, you can also upload a file. 
 
 ### Getting past domain ownership information
-Want to know who owned a specific domain in the past and who is currently acquiring it? You can use our [historical WHOIS lookup tool](https://whoisfreaks.com/tools/user/whois/history/lookup) to obtain past information about a domain.
+Want to know who owned a specific domain in the past and who is currently acquiring it? You can use our [historical WHOIS lookup tool](https://whoisfreaks.com/tools/user/whois/history/lookup) to uncover domain's history.
 
 Using the WHOIS historical tool, you can not only find the past and current owner, but you can also correlate domains with similar information, monitor illegal usage of your domain, and investigate domain ownership problems.
 
-[***Try historical WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/history/lookup/whoisfreaks.com)
+[***Try WHOIS history tool.***](https://whoisfreaks.com/tools/user/whois/history/lookup/whoisfreaks.com)
 
 ![historical whois lookup](images/historical_whois_lookup.webp)
 
 ### Looking for domains that contains a specific keyword
 Want to identify domains that are associated with WHOIS and DNS records availability or those linked to a specific brand? Utilize our advanced [Reverse WHOIS Lookup tool](https://whoisfreaks.com/tools/user/whois/reverse/search), which employs strategic keyword analysis, to unveil a comprehensive list of domains based on required brand's keyword. This tool not only reveals the quantity of such domains but also provides you with their specific names, enabling you to navigate the intricate web of domain-related intelligence with precision and ease.
 
-[***Try keyword Reverse WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/reverse/search/keyword/whois?page=1)
+[***Try keyword based Reverse WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/reverse/search/keyword/whois?page=1)
 
 ![reverse keyword lookup](images/reverse_keyword_search.webp)
 
 ### Searching for domains owned by a specific person
-To uncover the list of domains associated with an individual, leverage the capabilities of our sophisticated Reverse WHOIS Lookup tool. This innovative tool utilizes a detailed analysis of the owner's name, offering a strategic approach to identifying domains linked to a specific person.
+To uncover the list of domains associated with an individual, leverage the capabilities of our sophisticated owner based WHOIS Reverse tool. This innovative tool utilizes a detailed analysis of the owner's name, offering a strategic approach to identifying domains linked to a specific person.
 
-[***Try owner Reverse WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/reverse/search/owner/ejaz%20ahmed?page=1)
+[***Try owner based Reverse WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/reverse/search/owner/ejaz%20ahmed?page=1)
 
 ### Searching for domains owned using a specific email
-For a targeted exploration of domain connections via email addresses, our advanced Reverse WHOIS Lookup tool stands ready. This precise instrument sifts through email-associated domains, furnishing a comprehensive list of domains linked to a given email. Ideal for cybersecurity assessments, intellectual property management, and digital footprint analysis, this tool streamlines the discovery process, enhancing investigative efficiency and insight depth.
+For a targeted exploration of domain connections via email addresses, our advanced email based Reverse WHOIS Lookup tool stands ready. This precise instrument sifts through email-associated domains, furnishing a comprehensive list of domains linked to a given email. Ideal for cybersecurity assessments, intellectual property management, and digital footprint analysis, this tool streamlines the discovery process, enhancing investigative efficiency and insight depth.
 
-[***Try email Reverse WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/reverse/search/email/ejaz_ahmed@outlook.com?page=1)
+[***Try email based Reverse WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/reverse/search/email/ejaz_ahmed@outlook.com?page=1)
 
 ### Searching for domains owned by an organization.
 To strategically identify domains registered under a specific corporate entity, our Reverse WHOIS Lookup tool, enhanced for company name analysis, proves indispensable. This pivotal resource empowers cybersecurity professionals to map out a corporation's digital terrain comprehensively. By revealing the network of domains tied to a company;
@@ -179,7 +182,7 @@ To strategically identify domains registered under a specific corporate entity, 
 
 This tool elevates cybersecurity efforts by providing an extensive view of a company’s online presence, enabling more informed protective strategies.
 
-[***Try email Reverse WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/reverse/search/company/jfreaks?page=1)
+[***Try organization based Reverse WHOIS lookup tools.***](https://whoisfreaks.com/tools/user/whois/reverse/search/company/jfreaks?page=1)
 
 
 ### Searching for domains pointing to same IP address
@@ -191,7 +194,15 @@ Reverse DNS lookups also play a pivotal role in incident response and threat int
 
 [***Try Reverse DNS lookup tools.***](https://whoisfreaks.com/tools/dns/reverse/lookup/a/12.34.54.23)
 
-![reverse DNS lookup](images/reverse_a_dns.webp)
+![reverse DNS lookup](images/pngs/reverse_dns_a_lookup_2.png)
+
+### Searching for domains hosted on a complete CIDR
+
+If you want to perform reverse analysis on an entire CIDR block to extract the domains hosted within that range, this method can be highly effective. By analyzing a CIDR block, you can identify all the domains associated with the IP addresses in that range. This approach is particularly useful for gaining insights into the hosting patterns of specific organizations. For example, you can assess the number of domains hosted by a particular web hosting service provider, which can help you evaluate their popularity and market presence. 
+
+[***Try CIDR lookup tool.***](https://whoisfreaks.com/tools/dns/reverse/lookup/a?value=1.1.0.0/16)
+
+***Note: If you want to export the data in a csv file you can also do that by clicking on the button Download as CSV.***
 
 ## Understanding Domain Dynamics in Cybersecurity
 
@@ -202,6 +213,9 @@ Newly registered domains (NRDs) play a crucial role in cybersecurity due to thei
 - Phishing attacks.
 - Malware distribution.
 - Domain squatting, typosquatting.
+
+#### Importance of quick detection
+Malicious Newly Registered Domains (NRDs) are difficult to detect. To maintain security, an enterprise network requires swift and dependable detection capabilities. Ideally, you need a security system that not only identifies NRDs but also intelligently predicts their potential malicious intent. Once detected, the system should block these malicious NRDs and generate alerts for your security team. This allows your personnel to investigate further and decide on appropriate actions in accordance with your company's policies.
 
 #### Prevention Strategies
 To protect against potential threats from WhoisFreaks' Newly Registered Domains, you can take the following steps to analyze a domain like 'amazon.com';
