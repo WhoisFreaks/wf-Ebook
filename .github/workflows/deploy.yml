@@ -13,7 +13,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.5.4
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      
       - name: Run a multi-line script
         run: |
+          ssh -o StrictHostKeyChecking=no wf_testing2@172.105.134.180 << 'EOF'
           echo Add other actions to build,
           echo test, and deploy your project.
+          EOF
